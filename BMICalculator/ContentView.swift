@@ -20,9 +20,11 @@ struct ContentView: View {
                 Spacer()
                 
                 HStack {
-                    Text("몸무게")
+                    WeightView()
                     
-                    Text("나이")
+                    Spacer()
+                    
+                    AgeView()
                 }
             }
             .navigationTitle("BMI Calculator")

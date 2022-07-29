@@ -14,6 +14,8 @@
 		0BE8D7D52893B196007DA394 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D7D42893B196007DA394 /* GenderView.swift */; };
 		0BE8D7D72893B8F3007DA394 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D7D62893B8F3007DA394 /* ButtonStyle.swift */; };
 		0BE8D7D92893C0EB007DA394 /* HeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D7D82893C0EB007DA394 /* HeightView.swift */; };
+		0BE8D7DB2893CB3D007DA394 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D7DA2893CB3D007DA394 /* WeightView.swift */; };
+		0BE8D7DD2893D4EA007DA394 /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D7DC2893D4EA007DA394 /* AgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		0BE8D7D42893B196007DA394 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
 		0BE8D7D62893B8F3007DA394 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		0BE8D7D82893C0EB007DA394 /* HeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightView.swift; sourceTree = "<group>"; };
+		0BE8D7DA2893CB3D007DA394 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
+		0BE8D7DC2893D4EA007DA394 /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0BE8D7C62893AC4E007DA394 /* BMICalculatorApp.swift */,
 				0BE8D7D42893B196007DA394 /* GenderView.swift */,
 				0BE8D7D82893C0EB007DA394 /* HeightView.swift */,
+				0BE8D7DA2893CB3D007DA394 /* WeightView.swift */,
+				0BE8D7DC2893D4EA007DA394 /* AgeView.swift */,
 				0BE8D7C82893AC4E007DA394 /* ContentView.swift */,
 				0BE8D7D62893B8F3007DA394 /* ButtonStyle.swift */,
 				0BE8D7CA2893AC4F007DA394 /* Assets.xcassets */,
@@ -151,6 +157,8 @@
 				0BE8D7C92893AC4E007DA394 /* ContentView.swift in Sources */,
 				0BE8D7D92893C0EB007DA394 /* HeightView.swift in Sources */,
 				0BE8D7C72893AC4E007DA394 /* BMICalculatorApp.swift in Sources */,
+				0BE8D7DB2893CB3D007DA394 /* WeightView.swift in Sources */,
+				0BE8D7DD2893D4EA007DA394 /* AgeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
