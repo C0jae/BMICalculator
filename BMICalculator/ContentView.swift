@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                GenderView()
+                
+                Spacer()
+                
+                HeightView()
+                
+                Spacer()
+                
+                HStack {
+                    Text("몸무게")
+                    
+                    Text("나이")
+                }
+            }
+            .navigationTitle("BMI Calculator")
+        }
     }
 }
 
